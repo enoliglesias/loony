@@ -1,12 +1,13 @@
 var LoonyGame = LoonyGame || {};
 
-LoonyGame.global_gravity = 300;
+LoonyGame.global_gravity = 1200;
 
 LoonyGame.Play = function () {};
 
 LoonyGame.Play.prototype = {
 
   create: function() {
+    this.game.stage.backgroundColor = "#ededed";
 
     // Add general gravity to world
     this.game.physics.arcade.gravity.y = LoonyGame.global_gravity;
