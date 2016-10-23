@@ -1,0 +1,16 @@
+@font-face {
+  font-family: PressStart;
+  src: url("/assets/fonts/press_start.woff");
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: PressStart;
+}
+
+.game-wrapper {
+  color: #FFF;
+  margin: 0 auto;
+  margin-top: 25px;
+}
