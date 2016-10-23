@@ -4,7 +4,7 @@ LoonyGame.Load = function () {}
 
 LoonyGame.Load.prototype = {
   preload: function() {
-    this.game.load.image('loony', '/assets/images/loony.png');
+    this.game.load.image('loony', 'assets/images/loony.png');
   },
 
   loadUpdate: function(){
